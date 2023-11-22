@@ -1,5 +1,5 @@
-# finance-pristine
-Demo financial services website
+# healthcare-pristine
+Demo healthcare website
 
 Purpose of this site is to serve as a way to demonstrate Segment first-party event collection from a website.
 
