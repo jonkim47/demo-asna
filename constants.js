@@ -2,72 +2,78 @@ const LOGGED_IN_KEY = "loggedIn";
 
 const ACTIONS = [
   {
-    title: "Open Account",
-    image: "./assets/open-account.jpeg",
-    description: "Sign up for a new online financial account, provide personal information, and set up login credentials to access financial services.",
+    title: "Schedule a Telemedicine Appointment",
+    image: "./assets/schedule-telemedicine.jpeg",
+    description:
+      "Book a virtual appointment with healthcare professionals for medical advice and prescriptions.",
     properties: [
-      { name: "Account Type", value: "Savings" },
-      { name: "Account Tier", value: "Basic" },
-      { name: "Initial Deposit Amount", value: "$1,000" },
-      { name: "Identification Documents", value: "Passport" }
-    ]
+      { name: "Full Name", value: "John Doe" },
+      { name: "Contact Number", value: "555-1234" },
+      { name: "Preferred Date", value: "2023-12-10" },
+      { name: "Preferred Time", value: "15:30" },
+      { name: "Reason for Appointment", value: "General health checkup" },
+    ],
   },
   {
-    title: "Transfer Funds",
-    image: "./assets/transfer-funds.jpeg",
-    description: "Initiate the movement of funds between different financial accounts, whether within the same institution or to external accounts at other banks.",
+    title: "Complete a Digital Health Assessment",
+    image: "./assets/digital-health-assessment.jpeg",
+    description:
+      "Take a comprehensive digital health assessment to receive personalized health recommendations.",
     properties: [
-      { name: "Transfer Amount", value: "$500" },
-      { name: "Source Account", value: "Checking Account" },
-      { name: "Destination Account", value: "Savings Account" },
-      { name: "Recipient Information", value: "Account Number" },
-      { name: "Purpose of Transfer", value: "Bill Payment" }
-    ]
+      { name: "Full Name", value: "Jane Smith" },
+      { name: "Date of Birth", value: "1985-05-20" },
+      { name: "Gender", value: "Female" },
+      { name: "Health Conditions", value: "None" },
+      { name: "Lifestyle Habits", value: "Regular exercise, balanced diet" },
+    ],
   },
   {
-    title: "Purchase Crypto",
-    image: "./assets/purchase-crypto.jpeg",
-    description: "Buy digital currencies like Bitcoin, Ethereum, and more through our secure platform.",
+    title: "Place an Order on the Virtual Pharmacy",
+    image: "./assets/virtual-pharmacy.jpeg",
+    description:
+      "Order prescription medications and healthcare products online, with secure and discreet delivery.",
     properties: [
-      { name: "Cryptocurrency Type", value: "Bitcoin" },
-      { name: "Purchase Amount", value: "1 BTC" },
-      { name: "Payment Method", value: "Credit Card" }
-    ]
+      { name: "Full Name", value: "Alex Johnson" },
+      { name: "Delivery Address", value: "123 Main St, Cityville" },
+      { name: "Prescription Details", value: "Medication X, 30 tablets" },
+      { name: "Additional Comments", value: "Leave package at the front door" },
+    ],
   },
   {
-    title: "Manage Investments",
-    image: "./assets/manage-investments.jpeg",
-    description: "Buy or sell various types of investments, such as stocks, bonds, or mutual funds, to actively manage or grow your investment portfolio.",
+    title: "Subscribe to the Newsletter",
+    image: "./assets/newsletter-subscription.jpeg",
+    description:
+      "Stay informed by subscribing to our newsletter for the latest healthcare updates and promotions.",
     properties: [
-      { name: "Investment Portfolio", value: "Stocks" },
-      { name: "Investment Amount", value: "$10,000" },
-      { name: "Risk Tolerance", value: "Conservative" },
-      { name: "Investment Time Horizon", value: "Short-term" }
-    ]
+      { name: "Email Address", value: "alex@example.com" },
+      { name: "Full Name", value: "Alex Johnson" },
+      { name: "Interests", value: "General Health, Wellness Tips" },
+    ],
   },
   {
-    title: "Pay Bills",
-    image: "./assets/pay-bills.jpeg",
-    description: "Make payments for bills, loans, or recurring expenses through your financial account, often with the option to set up automated payments for convenience.",
+    title: "Engage with a Blog Post",
+    image: "./assets/blog-engagement.jpeg",
+    description:
+      "Read, like, and share informative blog posts on various healthcare topics.",
     properties: [
-      { name: "Biller Information", value: "Name of the Company" },
-      { name: "Bill Amount", value: "$100" },
-      { name: "Payment Date", value: "Due Date" },
-      { name: "Payment Method", value: "Online Banking" }
-    ]
+      { name: "Full Name", value: "Samantha Williams" },
+      { name: "Email Address", value: "samantha@example.com" },
+      { name: "Comment", value: "Great article, very informative!" },
+      { name: "Share on Social Media", value: "Yes" },
+    ],
   },
   {
-    title: "Request Customer Support",
-    image: "./assets/customer-support.jpeg",
-    description: "Contact customer support to seek assistance with account-related issues, resolve problems, or ask questions regarding products and services.",
+    title: "Complete a Contact Form Submission",
+    image: "./assets/contact-form.jpeg",
+    description:
+      "Reach out to us with inquiries, feedback, or requests through our online contact form.",
     properties: [
-      { name: "Customer Name", value: "Your Name" },
-      { name: "Contact Information", value: "Email" },
-      { name: "Issue Description", value: "Transaction Inquiry" },
-      { name: "Priority Level", value: "High" },
-      { name: "Request Timestamp", value: "Date and Time of Request" }
-    ]
-  }
+      { name: "Full Name", value: "Robert Brown" },
+      { name: "Email Address", value: "robert@example.com" },
+      { name: "Phone Number", value: "555-5678" },
+      { name: "Message", value: "I have a billing inquiry." },
+    ],
+  },
 ];
 
 const HEADER_NAV_CONFIG = [
